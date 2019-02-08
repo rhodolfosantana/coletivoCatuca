@@ -1,11 +1,16 @@
+  <div class= "nav">
+    <?php include 'navBar.php';?>
+    
+  </div>
 
-<?php include 'header.php '?>
+
+<?php include 'header.php';?>
 <!DOCTYPE html>
 <html>
 <head>
-	<style type="text/css">
-		
-		body {
+  <style type="text/css">
+    
+    body {
   background: #eaeaea;
   font-family: 'PT Mono', monospace;
   text-align: center;
@@ -18,11 +23,11 @@
 }
 
 .title {
-	background-size: 100% 100%;
-  	background-image: url('img/png.jpeg');
+  background-size: 100% 100%;
+    background-image: url('img/png.jpeg');
     background-attachment: fixed;
-  	height: 60vh;
-  	padding: 2rem 0;
+    height: 60vh;
+    padding: 2rem 0;
 }
 
 h1 {
@@ -37,14 +42,21 @@ h1 {
 p {
   margin-bottom: 1rem;
 }
-	</style>
+
+  </style>
 </head>
 <body>
-	<div class="container title">
-	</div>
+
+  <div class="container title">
+  </div>
 
 <div class="container">
-	<p>RECOMEÃ‡AR
+  <table>
+  <tr >
+    <td style=" padding:25px"><img width="300" height="300"src="img/img.jpeg"></td></br>
+    
+    <td>
+      RECOMEÃ‡AR
 
 NÃ£o importa onde vocÃª parou,
 em que momento da vida vocÃª cansou,
@@ -116,34 +128,15 @@ pensamentos assim trazem para nÃ³s
 aquilo que desejamos.
 
 Se pensarmos pequeno,
-coisas pequenas teremos.
-
-JÃ¡ se desejarmos fortemente o melhor
-e principalmente lutarmos pelo melhor,
-o melhor vai se instalar na nossa vida.
-
-E Ã© hoje o dia da Faxina Mental.
-
-Joga fora tudo que te prende ao passado,
-ao mundinho de coisas tristes,
-fotos,
-peÃ§as de roupa,
-papel de bala,
-ingressos de cinema,
-bilhetes de viagens,
-e toda aquela tranqueira que guardamos
-quando nos julgamos apaixonados.
-Jogue tudo fora.
-Mas, principalmente,
-esvazie seu coraÃ§Ã£o.
-Fique pronto para a vida,
-para um novo amor.
-
-Lembre-se somos apaixonÃ¡veis,
-somos sempre capazes de amar
-muitas e muitas vezes.
-Afinal de contas,
-nÃ³s somos o "Amor".</p>
+coisas pequenas teremos...
+</p>
+<a href="#">Ler mais</a>
+    </td> 
+  </tr>
+ 
+</table>
+  
+	
 </div>
 <div class="container title">
 	</div>
@@ -151,5 +144,5 @@ nÃ³s somos o "Amor".</p>
 
 </body>
 </html>
-<?php include 'footer.php '?>
+<?php include "footer.php"?>
 
