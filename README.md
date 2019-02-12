@@ -1,2 +1,2 @@
 # coletivoCatuca
-Projeto de futuro e mudança com organização e politicamente incorreto!
+Políticas públicas do povo para o povo!
