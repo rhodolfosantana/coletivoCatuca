@@ -11,26 +11,24 @@
   <style type="text/css">
     
     body {
-  background: #eaeaea;
+  color: blue;
   font-family: 'PT Mono', monospace;
   text-align: center;
 }
 
 .container {
-  background: #ddd;
+  background: yellow;
   padding: 2rem 0;
   width: 100%;
 }
 
 .title {
-  background-size: 100% 100%;
-    background-image: url('img/png.jpeg');
-    background-attachment: fixed;
-    height: 60vh;
-    padding: 2rem 0;
+  height: 60vh;
+  padding: 2rem 0;
 }
 
 h1 {
+  color: yellow;
   font-family: 'Bangers', cursive;
   font-size: 5rem;
   color: #fff;
@@ -53,7 +51,7 @@ p {
 <div class="container">
   <table>
   <tr >
-    <td style=" padding:25px"><img width="300" height="300"src="img/img.jpeg"></td></br>
+    <td style=" padding:25px"><img width="300" height="300" src="img/img.jpeg"></td></br>
     
     <td>
       RECOMEÃ‡AR
