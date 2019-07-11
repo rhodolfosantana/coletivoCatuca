@@ -1,146 +1,123 @@
-  <div class= "nav">
-    <?php include 'navBar.php';?>
-    
-  </div>
-
-
-<?php include 'header.php';?>
 <!DOCTYPE html>
 <html>
-<head>
-  <style type="text/css">
-    
-    body {
-  color: blue;
-  font-family: 'PT Mono', monospace;
-  text-align: center;
-}
+<title>Coletivo Catucá</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey">
 
-.container {
-  background: yellow;
-  padding: 2rem 0;
-  width: 100%;
-}
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1400px">
 
-.title {
-  height: 60vh;
-  padding: 2rem 0;
-}
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-32"> 
+  <h1><b>Coletivo Catucá</b></h1>
+  <p><span class="w3-tag">Dale, comparça!</span></p>
+</header>
 
-h1 {
-  color: yellow;
-  font-family: 'Bangers', cursive;
-  font-size: 5rem;
-  color: #fff;
-  text-shadow: 2px 2px 2px #333;
-}
+<!-- Grid -->
+<div class="w3-row">
 
+<!-- Blog entries -->
+<div class="w3-col l8 s12">
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+    <img src="pictures/pictures_imgZero.jpeg" alt="Nature" style="">
+    <div class="w3-container">
+      <h3><b>Quem somos?</b></h3>
+      <h5>Algo <span class="w3-opacity">  </span></h5>
+    </div>
 
-
-p {
-  margin-bottom: 1rem;
-}
-
-  </style>
-</head>
-<body>
-
-  <div class="container title">
+    <div class="w3-container">
+      <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
+        tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>continuar lendo... »</b></button></p>
+        </div>
+      </div>
+    </div>
   </div>
+  <hr>
 
-<div class="container">
-  <table>
-  <tr >
-    <td style=" padding:25px"><img width="300" height="300" src="img/img.jpeg"></td></br>
-    
-    <td>
-      RECOMEÃ‡AR
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+  <img src="pictures/pictures_imgZero.jpeg" alt="Norway" style="">
+    <div class="w3-container">
+      <h3><b></b></h3>
+      <h5> <span class="w3-opacity"></span></h5>
+    </div>
 
-NÃ£o importa onde vocÃª parou,
-em que momento da vida vocÃª cansou,
-o que importa Ã© que sempre Ã© possÃ­vel
-e necessÃ¡rio "RecomeÃ§ar".
-
-RecomeÃ§ar Ã© dar uma nova
-chance a si mesmo.
-Ã‰ renovar as esperanÃ§as na vida
-e o mais importante:
-acreditar em vocÃª de novo.
-
-Sofreu muito nesse perÃ­odo?
-Foi aprendizado.
-
-Chorou muito?
-Foi limpeza da alma.
-
-Ficou com raiva das pessoas?
-Foi para perdoÃ¡-las um dia.
-
-Sentiu-se sÃ³ por diversas vezes?
-Ã‰ por que fechaste a porta atÃ© para os outros.
-
-Acreditou que tudo estava perdido?
-Era o inÃ­cio da tua melhora.
-
-Pois Ã©!
-Agora Ã© hora de iniciar,
-de pensar na luz,
-de encontrar prazer nas coisas simples de novo.
-
-Que tal um novo emprego?
-Uma nova profissÃ£o?
-Um corte de cabelo arrojado, diferente?
-Um novo curso,
-ou aquele velho desejo de aprender a pintar,
-desenhar,
-dominar o computador,
-ou qualquer outra coisa?
-
-Olha quanto desafio.
-Quanta coisa nova nesse mundÃ£o
-de meu Deus te esperando.
-
-TÃ¡ se sentindo sozinho?
-Besteira!
-Tem tanta gente que vocÃª afastou
-com o seu "perÃ­odo de isolamento",
-tem tanta gente esperando apenas um
-sorriso teu para "chegar" perto de vocÃª.
-
-Quando nos trancamos na tristeza nem
-nÃ³s mesmos nos suportamos.
-Ficamos horrÃ­veis.
-O mau humor vai comendo nosso fÃ­gado,
-atÃ© a boca ficar amarga.
-
-RecomeÃ§ar!
-Hoje Ã© um bom dia para comeÃ§ar
-novos desafios.
-
-Onde vocÃª quer chegar?
-Ir alto.
-Sonhe alto,
-queira o melhor do melhor,
-queira coisas boas para a vida.
-pensamentos assim trazem para nÃ³s
-aquilo que desejamos.
-
-Se pensarmos pequeno,
-coisas pequenas teremos...
-</p>
-<a href="#">Ler mais</a>
-    </td> 
-  </tr>
- 
-</table>
-  
-	
+    <div class="w3-container">
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- END BLOG ENTRIES -->
 </div>
-<div class="container title">
-	</div>
 
+<!-- Introduction menu -->
+<div class="w3-col l4">
+  <!-- About Card -->
+  <div class="w3-card w3-margin w3-margin-top">
+  <img src="pictures/pictures_imgZero.jpeg" style="">
+    <div class="w3-container w3-white">
+      <h4><b></b></h4>
+    </div>
+  </div><hr>
+  
+  <!-- Posts -->
+  <div class="w3-card w3-margin">
+    <div class="w3-container w3-padding">
+      <h4>Algo</h4>
+    </div>
+    <ul class="w3-ul w3-hoverable w3-white">
+      <li class="w3-padding-16">
+        <img src="pictures/pictures_imgZero.jpeg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Lorem</span><br>
+        <span>Sed mattis nunc</span>
+      </li>
+      <li class="w3-padding-16">
+        <img src="pictures/pictures_imgZero.jpeg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Ipsum</span><br>
+        <span>Praes tinci sed</span>
+      </li> 
+      <li class="w3-padding-16">
+        <img src="pictures/pictures_imgZero.jpeg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Dorum</span><br>
+        <span>Ultricies congue</span>
+      </li>   
+      <li class="w3-padding-16 w3-hide-medium w3-hide-small">
+        <img src="pictures/pictures_imgZero.jpeg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Mingsum</span><br>
+        <span>Lorem ipsum dipsum</span>
+      </li>  
+    </ul>
+  </div>
+  <hr> 
+ 
+</div>
+
+<!-- END GRID -->
+</div><br>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+  <button class="w3-button w3-black w3-disabled w3-padding-large w3-margin-bottom">Previous</button>
+  <button class="w3-button w3-black w3-padding-large w3-margin-bottom">Next »</button>
+</footer>
 
 </body>
 </html>
-<?php include "footer.php"?>
-
