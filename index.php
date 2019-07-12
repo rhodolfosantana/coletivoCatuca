@@ -27,7 +27,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 <div class="w3-col l8 s12">
   <!-- Blog entry -->
   <div class="w3-card-4 w3-margin w3-white">
-    <img src="pictures/pictures_imgZero.jpeg" alt="Nature" style="">
+    <center><img src="pictures/pictures_imgZero.jpeg" alt="Nature" style=""></center>
     <div class="w3-container">
       <h3><b>Quem somos?</b></h3>
       <h5>Algo <span class="w3-opacity">  </span></h5>
@@ -46,6 +46,7 @@ and is wrapped around the whole page content, except for the footer in this exam
   <hr>
 
   <!-- Blog entry -->
+
   <div class="w3-card-4 w3-margin w3-white">
   <img src="pictures/pictures_imgZero.jpeg" alt="Norway" style="">
     <div class="w3-container">
@@ -78,28 +79,28 @@ and is wrapped around the whole page content, except for the footer in this exam
   <!-- Posts -->
   <div class="w3-card w3-margin">
     <div class="w3-container w3-padding">
-      <h4>Algo</h4>
+      <h4>Chegados</h4>
     </div>
     <ul class="w3-ul w3-hoverable w3-white">
       <li class="w3-padding-16">
-        <img src="pictures/pictures_imgZero.jpeg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-        <span class="w3-large">Lorem</span><br>
-        <span>Sed mattis nunc</span>
+        <img src="pictures/pictures_imgUm.jpeg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Boi no pão</span><br>
+        <span>Tamo junto!</span>
       </li>
       <li class="w3-padding-16">
-        <img src="pictures/pictures_imgZero.jpeg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-        <span class="w3-large">Ipsum</span><br>
-        <span>Praes tinci sed</span>
+        <img src="pictures/pictures_imgDois.jpeg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Restaurante Bom Gosto</span><br>
+        <span>Tamo junto!</span>
       </li> 
       <li class="w3-padding-16">
         <img src="pictures/pictures_imgZero.jpeg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-        <span class="w3-large">Dorum</span><br>
-        <span>Ultricies congue</span>
+        <span class="w3-large">Parceiro</span><br>
+        <span>Tamo junto!</span>
       </li>   
       <li class="w3-padding-16 w3-hide-medium w3-hide-small">
         <img src="pictures/pictures_imgZero.jpeg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-        <span class="w3-large">Mingsum</span><br>
-        <span>Lorem ipsum dipsum</span>
+        <span class="w3-large">Parceiro</span><br>
+        <span>Tamo junto!</span>
       </li>  
     </ul>
   </div>
