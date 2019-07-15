@@ -1,10 +1,12 @@
 <?php 
 
-	include'connection.php';
+	include'action_connection.php';
 
 	$login = htmlspecialchars($_POST['login'], ENT_QUOTES);
 	$senha = $_POST['senha'];
 	$private = sha1($senha);
+
+
 
 	$consulta= $connection->prepare("SELECT id, username,password FROM users WHERE username=? AND password=? ");
 	$consulta->bindParam(1,$login);

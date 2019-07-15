@@ -1,3 +1,12 @@
+<?php
+include 'view_navBar.php';
+if (!isset($_SESSION['user'])) {
+  header('location: ../index.php');
+  exit();
+}
+?>
+
+
 <!DOCTYPE html>
 <html>
 <title>Coletivo Catucá</title>
@@ -15,7 +24,6 @@ and is wrapped around the whole page content, except for the footer in this exam
 <div class="w3-content" style="max-width:1400px">
 
 <!-- Header -->
-<?php include "view_navBar.php" ?> 
 <header class="w3-container w3-center w3-padding-32">
 </header>
 
